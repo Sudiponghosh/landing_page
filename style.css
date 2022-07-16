@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    background-color:  linear-gradient(rgba(239, 134, 232, 0.819),rgba(145, 16, 156, 0.888));
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 9vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 173, 243);
+}
+.btn1{
+    margin-left: 40vw;
+    
+}
+ 
+.brand img{
+    width: 7vh;
+    padding: 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 10vh;
+}
+nav ul li{
+    padding: 0 1.5vw;
+}
+.btn{
+    margin-left:25vh;
+    padding: 4px 6px;
+    cursor: pointer;
+    background:  linear-gradient(rgba(239, 134, 232, 0.819),rgba(145, 16, 156, 0.888));
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.tamplate{
+    width: 100%;
+    height: 50vw;
+    background-position:center;
+    overflow: hidden;
+    
+    background-image: url('img/1.jpg');
+    background-repeat: no-repeat;
+    padding: 2vw;
+    font-size: 5vw;
+}
+.container{
+    display: flex;
+    margin: 1vw; 
+}
+.text{
+    color:rgb(251, 251, 251);
+    text-shadow: 1px 1px 10px rgb(235, 50, 245);
+    padding-left: 3vw;
+    font-family:sans-serif;
+}
+
+
+.f{
+    
+    display: grid;
+    grid-template-columns: repeat(2,50vw);
+    grid-template-rows: repeat(3,50vw);
+    background-color: #006400;
+}
+.box{
+    display: flex; 
+    align-items:center ;
+    justify-content: center;
+    font-size:8vw ;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.box:hover{
+    background: linear-gradient(rgba(163, 247, 157, 0.819),rgba(59, 192, 7, 0.888));
+}
+.box1{
+    list-style-type: none;
+}
+.i11{
+   min-width: 90%;
+   height: auto;
+}
+
+.feedback{
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+.c1{
+    border: 1px solid black;
+    padding: 3vw;
+    border-radius: 20px;
+    background-color:cornsilk;
+    box-shadow: 5px 5px 15px rgba(126, 128, 124, 0.954);
+    height:auto;
+}
+
+h5{
+    padding-top:0;
+    padding-left: 2vh;
+    padding-bottom: 2%;
+    color: rgb(195, 199, 203);
+}
+
+.btn2{
+    margin-left: 70%;
+    margin-top: 2vh;
+    padding: 5px 5px;
+    background-color:rgb(223, 158, 94);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:2px 2px 8px rgba(85, 86, 84, 0.954) ;
+}
+.btn2:hover{
+    background-color: rgb(179, 67, 27);
+}
+
+.spn3{
+   padding-top: 10vh;
+   padding-left: 5vh;
+}
+
+
+.feedbackx{
+    margin-right: 40%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.c1x{
+    border: 1px solid black;
+    padding: 3vw;
+    border-radius: 20px;
+    background-color:rgb(147, 249, 237);
+    height:auto;
+    box-shadow: 5px 5px 15px rgba(116, 117, 114, 0.954);
+}
+
+.h5x{
+    padding-top: 3%;
+    padding-left: 5vh;
+    padding-bottom: 3%;
+}
+
+.btn2x{
+    margin-left: 70%;
+    margin-top: 2vh;
+    padding: 5px 5px;
+    background-color:rgb(223, 158, 94);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:2px 2px 8px rgba(95, 96, 93, 0.954) ;
+}
+.btn2x:hover{
+    background-color: rgb(179, 67, 27);
+}
+
+.spn3x{
+   padding-top: 10vh;
+   padding-left: 5vh;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: linear-gradient(rgba(126, 125, 129, 0.973),rgb(21, 21, 119));
+    color: white;
+}
+
+.fi{
+    width: 4vw;
+    height: auto;
+}
+.fc ul{
+    list-style-type: none;
+}
+
+.png{
+    width: 15vw;
+    height: auto;
+}
+.vaccine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+}
+
+.register{
+    margin-top: 2.5vw;
+    padding: 10px 15px;
+    font-size: 5vw;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px rgba(95, 96, 93, 0.954) ;
+    cursor: pointer;
+    font-family:cursive;
+    background: linear-gradient(rgb(238, 200, 244),rgb(151, 15, 164));
+}
+.register:hover {
+    background: linear-gradient(rgba(119, 226, 245, 0.819),rgba(36, 170, 215, 0.888));
+  }
+
+  .service{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vw;
+    background-color: #006400;
+    font-size: 5vw;
+    color: rgb(231, 224, 224);
+    text-shadow: 1px 1px 30px rgba(131, 228, 5, 0.954);
+  }
+
+  
